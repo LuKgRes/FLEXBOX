@@ -1,7 +1,32 @@
+body{
+display: flex;
+}
+
+.contato img{
+    padding-right: 5px;
+}
+
+.contatos{
+    display: flex;
+}
+
 .deco{
     width: 2.5%;
-    height: 901px;
-    background-color: #7e2cfaa9;
-    
+    height: 900px;
+    background-color: #ff1414a9;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.resumo{
+    width: 35%;
+    height: 900px;
+    background-color: rgb(205, 205, 205);
+}
+
+.info{
+    height: 900px;
+    width:67%;
+    background-color: hsl(0, 0%, 100%);
 }
 
